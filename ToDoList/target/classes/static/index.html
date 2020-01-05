@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="css/boot.css" crossorigin="anonymous">
+</head>
+<body>
+<style>
+    .cross {
+    position: absolute;
+    right:0;
+    margin-right:7px;
+}
+.edit {
+    position: absolute;
+    right:0;
+    margin-right:30px;
+}
+</style>
+<div class="container py-3">
+    <h1>Spring Boot ToDoList</h1>
+
+
+        <div class="input-group">
+            <input type="text" class="form-control" id="mainInput" placeholder="Enter work to do" name="task">
+            <div class="input-group-prepend">
+                <button type="button" class="btn btn-primary" id="submit">+</button>
+            </div>
+        </div>
+    <div id="list" class="py-3 mt-3">
+    </div>
+</div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
